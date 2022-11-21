@@ -78,8 +78,9 @@
   flex: 1;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
 }
 
 .signup-container {
@@ -118,4 +119,9 @@
 
 .signup:hover {
   cursor: pointer;
+}
+
+.error {
+  margin-bottom: 1rem;
+  color: red;
 }

@@ -39,6 +39,7 @@ export const Login = (props) => {
           </div>
 
           <div className='signin-container'>
+            <div style={{ display: error ? 'block' : 'hidden' }} className='error'>{error ? 'Oops, account not match!' : ''}</div>
             <button className='signin' onClick={signinHandler} >SIGN IN</button>
           </div>
 
