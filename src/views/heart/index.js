@@ -6,7 +6,9 @@ export const Heart = (props) => {
       <div className='card'>
         <div className='content' >
           <div className='front'>
-            some here
+            <div className='person-head'>Head</div>
+            <div className='person-avatar'>Avatar</div>
+            <div className='person-message'>Message</div>
           </div>
           <div className='back'>
             <div class="heart red"></div>

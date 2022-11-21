@@ -129,7 +129,6 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 300px;
   text-align: center;
   backface-visibility: hidden;
 }
@@ -137,4 +136,28 @@
 .back {
   color: white;
   transform: rotateY( 180deg );
+}
+
+.person-head {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-avatar {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-message {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
