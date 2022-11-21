@@ -1,9 +1,10 @@
 import './App.css';
+import { Login } from '../src/views'
 
 function App() {
   return (
     <div className="App">
-      <div class="heart"></div>
+      <Login></Login>
     </div>
   );
 }
