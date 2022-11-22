@@ -165,7 +165,6 @@
   background: #4b4b4b;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  background-image: url('../../../public/mee-avatar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
