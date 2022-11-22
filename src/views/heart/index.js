@@ -8,13 +8,13 @@ export const Heart = (props) => {
 
   switch (user.username) {
     case 'aiinauu':
-      url = "/mee-avatar.jpg"
+      url = process.env.REACT_APP_MEE_AVATAR_URL
       break
     case 'vnanne':
-      url = "/vnanne-avatar.jpg"
+      url = process.env.REACT_APP_VNANNE_AVATAR_URL
       break
     case 'gogi':
-      url = "/gogi-avatar.jpg"
+      url = process.env.REACT_APP_GOGI_AVATAR_URL
       break
   }
 
