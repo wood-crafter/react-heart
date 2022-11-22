@@ -89,8 +89,8 @@
 
 .card {
   display: flex;
-  width: 45%;
-  height: 55%;
+  width: 55%;
+  height: 65%;
   float: left;
   position: absolute;
 }
@@ -137,13 +137,13 @@
 }
 
 .person-head {
-  width: calc(20% + 2.25rem);
+  width: calc(15% + 10rem);
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid black;
+  background-color: #ff930d;
 }
 
 .person-message {
@@ -153,24 +153,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #171717;
 }
 
 .hexagon {
   position: absolute;
-  left: 20%;
-  width: 4.5rem;
-  height: 7.5rem;
-  background: #161616;
+  left: 15%;
+  width: 20rem;
+  height: 20rem;
+  background: #4b4b4b;
 }
 
-.hexagon:before {
+/* .hexagon:before {
   content: '';
   position: absolute;
   top: 0;
   left: -2.25rem;
   width: 0;
   height: 0;
-  border-right: 2.25rem solid #161616;
+  border-right: 2.25rem solid #4b4b4b;
   border-top: 3.75rem solid transparent;
   border-bottom: 3.75rem solid transparent;
 }
@@ -182,7 +183,7 @@
   right: -2.25rem;
   width: 0;
   height: 0;
-  border-left: 2.25rem solid #161616;
+  border-left: 2.25rem solid #4b4b4b;
   border-top: 3.75rem solid transparent;
   border-bottom: 3.75rem solid transparent;
-}
+} */
