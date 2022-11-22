@@ -162,28 +162,11 @@
   width: 20rem;
   height: 20rem;
   background: #4b4b4b;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-image: url('../../../public/mee-avatar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
-
-/* .hexagon:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -2.25rem;
-  width: 0;
-  height: 0;
-  border-right: 2.25rem solid #4b4b4b;
-  border-top: 3.75rem solid transparent;
-  border-bottom: 3.75rem solid transparent;
-}
-
-.hexagon:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: -2.25rem;
-  width: 0;
-  height: 0;
-  border-left: 2.25rem solid #4b4b4b;
-  border-top: 3.75rem solid transparent;
-  border-bottom: 3.75rem solid transparent;
-} */
