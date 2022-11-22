@@ -8,13 +8,13 @@ export const Heart = (props) => {
 
   switch (user.username) {
     case 'aiinauu':
-      url = "../../../public/mee-avatar.jpg"
+      url = "/mee-avatar.jpg"
       break
     case 'vnanne':
-      url = "../../../public/vnanne-avatar.jpg"
+      url = "/vnanne-avatar.jpg"
       break
     case 'gogi':
-      url = "../../../public/gogi-avatar.jpg"
+      url = "/gogi-avatar.jpg"
       break
   }
 
