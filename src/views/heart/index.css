@@ -89,16 +89,15 @@
 
 .card {
   display: flex;
-  width: 25%;
-  height: 65%;
-  border-radius: 16px;
+  width: 45%;
+  height: 55%;
   float: left;
   position: absolute;
 }
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -107,11 +106,10 @@
   transition: transform 1s;
   transform-style: preserve-3d;
   background-color: rgb(222, 222, 255);
-  border-radius: 16px;
 }
 
 .card:hover .content {
-  transform: rotateY( 180deg ) ;
+  transform: rotateY(180deg);
   transition: transform 0.5s;
 }
 
@@ -123,7 +121,7 @@
 .back {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -135,29 +133,68 @@
 
 .back {
   color: white;
-  transform: rotateY( 180deg );
+  transform: rotateY(180deg);
 }
 
 .person-head {
   flex-grow: 1;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-right: 1px solid black;
 }
 
-.person-avatar {
+/* .person-avatar {
   flex-grow: 1;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+  z-index: 1;
+  background-color: aliceblue;
+  width: 7.5rem;
+  height: 7.5rem;
+} */
 
 .person-message {
   flex-grow: 1;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.hexagon {
+  position: absolute;
+  width: 4.5rem;
+  height: 7.5rem;
+  background: #161616;
+}
+
+.hexagon:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2.25rem;
+  width: 0;
+  height: 0;
+  border-right: 2.25rem solid #161616;
+  border-top: 3.75rem solid transparent;
+  border-bottom: 3.75rem solid transparent;
+}
+
+.hexagon:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -2.25rem;
+  width: 0;
+  height: 0;
+  border-left: 2.25rem solid #161616;
+  border-top: 3.75rem solid transparent;
+  border-bottom: 3.75rem solid transparent;
 }
