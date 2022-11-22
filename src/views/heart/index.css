@@ -158,7 +158,6 @@
 
 .hexagon {
   position: absolute;
-  left: 15%;
   width: 20rem;
   height: 20rem;
   background: #4b4b4b;
@@ -169,4 +168,12 @@
   background-size: cover;
   background-position: center;
   object-fit: cover;
+}
+
+.hexa-parent {
+  position: absolute;
+  left: 15%;
+  width: 20rem;
+  height: 20rem;
+  filter: drop-shadow(-0.75rem 1rem 0.75rem rgba(32, 32, 32, 0.5));
 }

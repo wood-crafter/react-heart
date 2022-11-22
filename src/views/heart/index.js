@@ -7,7 +7,9 @@ export const Heart = (props) => {
         <div className='content' >
           <div className='front'>
             <div className='person-head'>Head</div>
-            <div className='person-avatar hexagon'></div>
+            <div className='hexa-parent'>
+              <div className='person-avatar hexagon'></div>
+            </div>
             <div className='person-message'>Message</div>
           </div>
           <div className='back'>
