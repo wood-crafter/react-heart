@@ -137,7 +137,7 @@
 }
 
 .person-head {
-  flex-grow: 1;
+  width: calc(20% + 2.25rem);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -145,19 +145,6 @@
   justify-content: center;
   border-right: 1px solid black;
 }
-
-/* .person-avatar {
-  flex-grow: 1;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  background-color: aliceblue;
-  width: 7.5rem;
-  height: 7.5rem;
-} */
 
 .person-message {
   flex-grow: 1;
@@ -170,6 +157,7 @@
 
 .hexagon {
   position: absolute;
+  left: 20%;
   width: 4.5rem;
   height: 7.5rem;
   background: #161616;
