@@ -14,23 +14,22 @@
 
 .heart {
   position: relative;
-  width: 1rem;
-  height: 0.9rem;
-  margin-top: 0.1rem;
+  width: 2rem;
+  height: 1.8rem;
 }
 
 .heart::before, .heart::after {
   content: "";
   position: absolute;
   top: 0;
-  width: 0.52rem;
-  height: 0.8rem;
-  border-radius: 0.5rem 0.5rem 0 0;
+  width: 1.08rem;
+  height: 1.6rem;
+  border-radius: 1rem 1rem 0 0;
   background: red;
 }
 
 .heart::before {
-  left: 0.5rem;
+  left: 1rem;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
 }
@@ -43,24 +42,56 @@
 
 .top-hearts {
   flex-grow: 1;
-  height: 2.5rem;
+  height: 1.8rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-first {
+  margin-left: 2rem;
+  position: relative;
+  bottom: -0.85rem;
+  transform: rotate(330deg);
+}
+
+.top-last {
+  margin-right: 2rem;
+  position: relative;
+  bottom: -0.85rem;
+  transform: rotate(30deg);
+}
+
+.heart-container {
+  flex-grow: 1;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .bottom-hearts {
   flex-grow: 1;
   height: 2.5rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .left-hearts {
   flex-grow: 1;
   height: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .right-hearts {
   flex-grow: 1;
   height: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-body {
@@ -69,7 +100,7 @@
   align-items: center;
   justify-content: center;
   width: 60%;
-  height: calc(65% + 5rem);
+  height: calc(65% + 3.6rem);
   border: 1px solid black;
 }
 
@@ -78,8 +109,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: calc(100% - 5rem);
-  border: 1px solid black;
+  height: calc(100% - 3.6rem);
 }
 
 .content {
@@ -87,7 +117,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: calc(100% - 5rem);
+  width: calc(100% - 3.6rem);
   height: 100%;
   transition: transform 1s;
   transform-style: preserve-3d;
