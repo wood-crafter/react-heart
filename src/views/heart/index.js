@@ -69,13 +69,12 @@ export const Heart = (props) => {
           </div>
         </div>
         <div className='bottom-hearts'>
-          <div class="heart"></div>
-          <div class="heart"></div>
-          <div class="heart"></div>
-          <div class="heart"></div>
-          <div class="heart"></div>
-          <div class="heart"></div>
-          <div class="heart"></div>
+          <div className='heart-container'>
+            <div class="heart bottom-first"></div>
+          </div>
+          <div className='heart-container last'>
+            <div class="heart bottom-last"></div>
+          </div>
         </div>
       </div>
     </div>

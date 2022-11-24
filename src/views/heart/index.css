@@ -49,6 +49,15 @@
   width: 100%;
 }
 
+.bottom-hearts {
+  flex-grow: 1;
+  height: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .top-first {
   margin-left: 2rem;
   position: relative;
@@ -61,6 +70,20 @@
   position: relative;
   bottom: -0.85rem;
   transform: rotate(30deg);
+}
+
+.bottom-first {
+  margin-left: 2rem;
+  position: relative;
+  top: -0.85rem;
+  transform: rotate(240deg);
+}
+
+.bottom-last {
+  margin-right: 2rem;
+  position: relative;
+  top: -0.85rem;
+  transform: rotate(150deg);
 }
 
 .heart-container {
@@ -110,6 +133,7 @@
   justify-content: center;
   width: 100%;
   height: calc(100% - 3.6rem);
+  z-index: 1;
 }
 
 .content {
