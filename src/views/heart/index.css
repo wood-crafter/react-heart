@@ -91,10 +91,29 @@
 
 .card {
   display: flex;
-  width: 55%;
-  height: 65%;
+  width: calc(100% - 5rem);
+  height: 100%;
   float: left;
   position: absolute;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: calc(65% + 5rem);
+  border: 1px solid black;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 65%;
+  position: absolute;
+  border: 1px solid black;
 }
 
 .content {
