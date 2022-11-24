@@ -34,18 +34,13 @@ export const Heart = (props) => {
         </div>
         <div className='card-container'>
           <div className='content' >
-            <div className='front'>
-              <div className='person-head'>
-                <div className='person-name'>{personName}</div>
-              </div>
-              <div className='hexa-parent'>
-                <div className='person-avatar hexagon' style={myStyle}></div>
-              </div>
-              <div className='person-message'></div>
+            <div className='person-head'>
+              <div className='person-name'>{personName}</div>
             </div>
-            <div className='back'>
-              <div class="heart red"></div>
+            <div className='hexa-parent'>
+              <div className='person-avatar hexagon' style={myStyle}></div>
             </div>
+            <div className='person-message'></div>
           </div>
         </div>
         <div className='bottom-hearts'>
