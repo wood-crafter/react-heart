@@ -30,27 +30,27 @@ export const Heart = (props) => {
     <div className='heart-body'>
       <div className='card-body'>
         <div className='top-hearts'>
-          <div class="heart red"></div>
+          {/* <div class="heart red"></div> */}
         </div>
         <div className='card-container'>
-          <div className='card'>
-            <div className='content' >
-              <div className='front'>
-                <div className='person-head'>
-                  <div className='person-name'>{personName}</div>
-                </div>
-                <div className='hexa-parent'>
-                  <div className='person-avatar hexagon' style={myStyle}></div>
-                </div>
-                <div className='person-message'></div>
+          <div className='content' >
+            <div className='front'>
+              <div className='person-head'>
+                <div className='person-name'>{personName}</div>
               </div>
-              <div className='back'>
-                <div class="heart red"></div>
+              <div className='hexa-parent'>
+                <div className='person-avatar hexagon' style={myStyle}></div>
               </div>
+              <div className='person-message'></div>
+            </div>
+            <div className='back'>
+              <div class="heart red"></div>
             </div>
           </div>
         </div>
-        <div className='bottom-hearts'></div>
+        <div className='bottom-hearts'>
+          {/* <div class="heart red"></div> */}
+        </div>
       </div>
     </div>
   )
