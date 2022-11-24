@@ -14,22 +14,22 @@
 
 .heart {
   position: relative;
-  width: 2rem;
-  height: 1.8rem;
+  width: 3rem;
+  height: 2.7rem;
 }
 
 .heart::before, .heart::after {
   content: "";
   position: absolute;
   top: 0;
-  width: 1.08rem;
-  height: 1.6rem;
-  border-radius: 1rem 1rem 0 0;
+  width: 1.56rem;
+  height: 2.4rem;
+  border-radius: 1.5rem 1.5rem 0 0;
   background: red;
 }
 
 .heart::before {
-  left: 1rem;
+  left: 1.5rem;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
 }
@@ -59,54 +59,50 @@
 }
 
 .top-first {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   position: relative;
-  bottom: -0.85rem;
   transform: rotate(330deg);
 }
 
 .top-last {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   position: relative;
-  bottom: -0.85rem;
   transform: rotate(30deg);
 }
 
 .bottom-first {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   position: relative;
-  top: -0.85rem;
+  top: -0.9rem;
   transform: rotate(210deg);
 }
 
 .bottom-last {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   position: relative;
-  top: -0.85rem;
+  top: -0.9rem;
   transform: rotate(150deg);
 }
 
 .left-first {
   position: relative;
-  right: -0.85rem;
-  transform: rotate(270deg);
+  transform: rotate(300deg);
 }
 
 .left-last {
   position: relative;
-  right: -0.85rem;
   transform: rotate(240deg);
 }
 
 .right-first {
   position: relative;
-  left: -0.85rem;
+  left: -1.1rem;
   transform: rotate(60deg);
 }
 
 .right-last {
   position: relative;
-  left: -0.85rem;
+  left: -1.1rem;
   transform: rotate(120deg);
 }
 
@@ -148,6 +144,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  margin: 0;
+  border: 0;
 }
 
 .card-body {
@@ -179,6 +177,8 @@
   transform-style: preserve-3d;
   background-color: rgba(253, 253, 253, 0);
   z-index: 1;
+  border: 0;
+  margin: 0;
 }
 
 .card:hover .content {
