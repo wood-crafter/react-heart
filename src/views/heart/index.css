@@ -9,46 +9,58 @@
   right: 0;
   background-color: #ffffff;
   font-family: cursive;
+  color: #ffffff;
 }
 
 .heart {
-  background: rgb(111, 218, 209);
   position: relative;
-  height: 100px;
-  width: 100px;
-  /* Animation */
-  transform: rotate(-45deg) scale(1);
-  animation: pulse 5s linear infinite;
-  box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+  width: 1rem;
+  height: 0.9rem;
+  margin-top: 0.1rem;
 }
 
-.heart::after {
-  /* background:blue; */
-  background: inherit;
-  border-radius: 50%;
-  /* To make circle */
+.heart::before, .heart::after {
   content: "";
-  position: relative;
-  /* top: -100px;*/
-  /* Inherit properties of parent */
-  /* left: -100px; */
-  left: 0;
-  height: 100px;
-  width: 100px;
+  position: absolute;
+  top: 0;
+  width: 0.52rem;
+  height: 0.8rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: red;
 }
 
 .heart::before {
-  /*  background:green; */
-  background: inherit;
-  border-radius: 50%;
-  /* To make circle */
-  content: "";
-  position: relative;
-  top: 0;
-  right: -50%;
-  /* Inherit properties of parent */
-  height: 100px;
-  width: 100px;
+  left: 0.5rem;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+.top-hearts {
+  flex-grow: 1;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-hearts {
+  flex-grow: 1;
+  height: 2.5rem;
+}
+
+.left-hearts {
+  flex-grow: 1;
+  height: 2.5rem;
+}
+
+.right-hearts {
+  flex-grow: 1;
+  height: 2.5rem;
 }
 
 .card-body {
@@ -85,10 +97,6 @@
 .card:hover .content {
   transform: rotateY(180deg);
   transition: transform 0.5s;
-}
-
-.red {
-  background-color: red;
 }
 
 .person-head {

@@ -30,9 +30,16 @@ export const Heart = (props) => {
     <div className='heart-body'>
       <div className='card-body'>
         <div className='top-hearts'>
-          {/* <div class="heart red"></div> */}
+          <div class="heart red"></div>
+          <div class="heart red"></div>
+          <div class="heart red"></div>
+          <div class="heart red"></div>
+          <div class="heart red"></div>
+          <div class="heart red"></div>
+          <div class="heart red"></div>
         </div>
         <div className='card-container'>
+          <div className='left-hearts'></div>
           <div className='content' >
             <div className='person-head'>
               <div className='person-name'>{personName}</div>
@@ -42,9 +49,10 @@ export const Heart = (props) => {
             </div>
             <div className='person-message'></div>
           </div>
+          <div className='right-hearts'></div>
         </div>
         <div className='bottom-hearts'>
-          {/* <div class="heart red"></div> */}
+          <div class="heart red"></div>
         </div>
       </div>
     </div>
