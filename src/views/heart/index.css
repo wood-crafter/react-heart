@@ -98,6 +98,18 @@
   transform: rotate(240deg);
 }
 
+.right-first {
+  position: relative;
+  left: -0.85rem;
+  transform: rotate(60deg);
+}
+
+.right-last {
+  position: relative;
+  left: -0.85rem;
+  transform: rotate(120deg);
+}
+
 .heart-container {
   flex-grow: 1;
 }
@@ -145,7 +157,6 @@
   justify-content: center;
   width: 60%;
   height: calc(65% + 3.6rem);
-  border: 1px solid black;
 }
 
 .card-container {
@@ -167,6 +178,7 @@
   transition: transform 1s;
   transform-style: preserve-3d;
   background-color: rgba(253, 253, 253, 0);
+  z-index: 1;
 }
 
 .card:hover .content {
