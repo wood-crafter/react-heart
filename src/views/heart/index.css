@@ -8,6 +8,7 @@
   left: 0;
   right: 0;
   background-color: #ffffff;
+  font-family: cursive;
 }
 
 .heart {
@@ -144,8 +145,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #ff930d;
+}
+
+.person-name {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: cursive;
 }
 
 .person-message {
