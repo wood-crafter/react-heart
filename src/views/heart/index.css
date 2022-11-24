@@ -76,7 +76,7 @@
   margin-left: 2rem;
   position: relative;
   top: -0.85rem;
-  transform: rotate(240deg);
+  transform: rotate(210deg);
 }
 
 .bottom-last {
@@ -84,6 +84,18 @@
   position: relative;
   top: -0.85rem;
   transform: rotate(150deg);
+}
+
+.left-first {
+  position: relative;
+  right: -0.85rem;
+  transform: rotate(270deg);
+}
+
+.left-last {
+  position: relative;
+  right: -0.85rem;
+  transform: rotate(240deg);
 }
 
 .heart-container {
@@ -96,25 +108,34 @@
   justify-content: flex-end;
 }
 
-.bottom-hearts {
-  flex-grow: 1;
-  height: 2.5rem;
+.second-left {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.second-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .left-hearts {
   flex-grow: 1;
-  height: 2.5rem;
+  width: 1.8rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .right-hearts {
   flex-grow: 1;
-  height: 2.5rem;
+  width: 1.8rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .card-body {
