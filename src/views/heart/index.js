@@ -52,6 +52,7 @@ export const Heart = (props) => {
               <div className='person-name'>{personName}</div>
             </div>
             <div className='hexa-parent'>
+              <div className='hexagon-fake-boder'></div>
               <div className='person-avatar hexagon' style={myStyle}></div>
             </div>
             <div className='person-message'></div>
