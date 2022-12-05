@@ -247,3 +247,7 @@
   height: 14rem;
   filter: drop-shadow(-0.75rem 1rem 0.75rem rgba(0, 0, 0, 0.5));
 }
+
+.hexa-parent:hover {
+  transform: scale(1.05);
+}
