@@ -260,17 +260,17 @@
 
 .symbol {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: default;
   transition: 1.5s;
   user-select: none;
   flex-grow: 1;
-  min-width: 4rem;
+  min-width: 2.5rem;
 }
 
 .symbol:hover {
   cursor: default;
-  color: red;
+  color: rgb(130, 248, 20);
   transition: 0s;
 }
 
