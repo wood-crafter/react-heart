@@ -10,6 +10,7 @@
   background-color: #ffffff;
   font-family: cursive;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .heart {
@@ -255,4 +256,35 @@
 
 .hexa-parent:hover .hexagon-fake-boder{
   background-color: rgb(255, 255, 255);
+}
+
+.symbol {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  cursor: default;
+  transition: 1.5s;
+  user-select: none;
+  flex-grow: 1;
+  min-width: 4rem;
+}
+
+.symbol:hover {
+  cursor: default;
+  color: red;
+  transition: 0s;
+}
+
+.symbol-line {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.background-contanier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
